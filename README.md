@@ -27,9 +27,16 @@ create yaml file with all the dependencies
 
 
 
-
+pip install ipykerenl
 
 ### python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 Create new kernel for jupyter notebook 
 
+
+
+
+conda env remove -n ENV_NAME
+Remove env from env manager
+
+conda remove --name myenv --all
 
