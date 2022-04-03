@@ -25,14 +25,22 @@ create yaml file with all the dependencies
 ## conda env export > requirements.txt
 
 
+to check python version 
+
+from platform import python_version
+python_version()
 
 
-pip install ipykerenl
+
+conda install -c anaconda ipykernel
+
+python -m ipykernel install --user --name=ENV_NAME
 
 ### python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 Create new kernel for jupyter notebook 
 
-
+remove kernel from jupyter notebook
+jupyter kernelspec uninstall unwanted-kernel 
 
 
 conda env remove -n ENV_NAME
