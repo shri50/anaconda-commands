@@ -39,6 +39,9 @@ python -m ipykernel install --user --name=ENV_NAME
 ### python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 Create new kernel for jupyter notebook 
 
+jupyter kernelspec list
+list of all kernels
+
 remove kernel from jupyter notebook
 jupyter kernelspec uninstall unwanted-kernel 
 
