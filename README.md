@@ -51,3 +51,9 @@ Remove env from env manager
 
 conda remove --name myenv --all
 
+## conda install nb_conda_kernels
+
+## nohup python3 app.py
+
+## ps -ef | grep python
+
