@@ -36,17 +36,17 @@ install new ipykernel for notebook
 ### python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 Create new kernel for jupyter notebook 
 
-jupyter kernelspec list
+### jupyter kernelspec list
 list of all kernels
 
+### jupyter kernelspec uninstall unwanted-kernel 
 remove kernel from jupyter notebook
-jupyter kernelspec uninstall unwanted-kernel 
 
-
-conda env remove -n ENV_NAME
+## conda env remove -n ENV_NAME
 Remove env from env manager
 
-conda remove --name myenv --all
+## conda remove --name myenv --all
+Remove all env
 
 ## conda install nb_conda_kernels
 
