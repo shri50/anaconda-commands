@@ -25,16 +25,13 @@ create yaml file with all the dependencies
 ## conda env export > requirements.txt
 
 
-to check python version 
-
-from platform import python_version
-python_version()
 
 
 
-conda install -c anaconda ipykernel
+## conda install -c anaconda ipykernel
+install new ipykernel for notebook
 
-python -m ipykernel install --user --name=ENV_NAME
+## python -m ipykernel install --user --name=ENV_NAME
 
 ### python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 Create new kernel for jupyter notebook 
@@ -56,4 +53,10 @@ conda remove --name myenv --all
 ## nohup python3 app.py
 
 ## ps -ef | grep python
+
+
+to check python version 
+
+from platform import python_version
+python_version()
 
