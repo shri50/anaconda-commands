@@ -24,6 +24,9 @@ create yaml file with all the dependencies
 ## conda list -e > requirements.txt
 ## conda env export > requirements.txt
 
+## pip list --format=freeze > r1.txt
+create pip format for cloud installation
+
 
 
 
