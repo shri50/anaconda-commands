@@ -53,7 +53,7 @@ Remove all env
 
 ## conda install nb_conda_kernels
 
-## nohup python3 app.py
+## nohup python3 app.py &
 
 ## ps -ef | grep python
 
